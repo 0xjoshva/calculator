@@ -1,0 +1,35 @@
+body {
+  background-color: darkorange;
+
+  align-items: center;
+}
+
+#calculator {
+  background: black;
+  background: rgba(0, 0, 0, 0.8);
+  /* blur form */
+  backdrop-filter: blur(3px);
+  border-radius: 30px;
+  height: 600px;
+  width: 350px;
+}
+
+#output {
+  border: 2px solid rgb(255, 242, 0);
+  border-radius: 25px 25px 0px 0px;
+  height: 180px;
+  margin-bottom: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 5px;
+}
+button {
+  width: 23%;
+  height: 80px;
+  border-radius: 20%;
+}
