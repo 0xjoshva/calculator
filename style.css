@@ -1,5 +1,5 @@
 body {
-  background-color: darkorange;
+  background-color: rgb(255, 230, 2);
 
   align-items: center;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 #output {
-  border: 2px solid rgb(255, 242, 0);
+  border: 2px solid rgb(255, 94, 0);
   border-radius: 25px 25px 0px 0px;
   height: 180px;
   margin-bottom: 10px;
@@ -33,3 +33,28 @@ button {
   height: 80px;
   border-radius: 20%;
 }
+
+#zero{
+  padding: 10px 153px 10px 10px;
+  color: white;
+  background-color: rgb(84, 84, 84);
+  text-align: center;
+}
+
+#zero:hover{
+  background-color:rgb(65, 65, 65) ;
+  color: rgb(255, 255, 255);
+}
+
+#equal{ background: rgb(255, 119, 0);
+      
+        color:white;
+
+}
+
+#equal:hover{ background-color:orange;
+  color:white;
+  
+}
+
+#
